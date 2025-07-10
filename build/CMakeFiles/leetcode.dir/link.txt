@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/leetcode.dir/src/main.cpp.o CMakeFiles/leetcode.dir/src/problem1.cpp.o -o leetcode 
