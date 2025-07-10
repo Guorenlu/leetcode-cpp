@@ -63,6 +63,27 @@
         }
       ],
       "preLaunchTask": "Build problem3"
+    },
+    {
+      "name": "water_warmer",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/water_warmer",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "water_warmer"
     }
   ]
 }

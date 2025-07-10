@@ -21,6 +21,12 @@
       "type": "shell",
       "command": "cmake --build build --target problem3",
       "group": "build"
+    },
+    {
+      "label": "water_warmer",
+      "type": "shell",
+      "command": "cmake --build build --target water_warmer",
+      "group": "build"
     }
   ]
 }
