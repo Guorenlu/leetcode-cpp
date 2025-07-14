@@ -1,5 +1,8 @@
-/root/leetcode_cpp/build/CMakeFiles/problem1.dir
-/root/leetcode_cpp/build/CMakeFiles/problem2.dir
+/root/leetcode_cpp/build/CMakeFiles/MST.dir
+/root/leetcode_cpp/build/CMakeFiles/String_Chain.dir
+/root/leetcode_cpp/build/CMakeFiles/Union_Find.dir
+/root/leetcode_cpp/build/CMakeFiles/dijkstra.dir
+/root/leetcode_cpp/build/CMakeFiles/perimeter_of_island.dir
 /root/leetcode_cpp/build/CMakeFiles/water_warmer.dir
 /root/leetcode_cpp/build/CMakeFiles/edit_cache.dir
 /root/leetcode_cpp/build/CMakeFiles/rebuild_cache.dir

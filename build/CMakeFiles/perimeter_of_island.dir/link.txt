@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/main_perimeter_of_island.cpp.o CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/perimeter_of_island.cpp.o -o perimeter_of_island 

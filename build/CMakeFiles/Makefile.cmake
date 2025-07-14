@@ -44,7 +44,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/problem1.dir/DependInfo.cmake"
-  "CMakeFiles/problem2.dir/DependInfo.cmake"
+  "CMakeFiles/MST.dir/DependInfo.cmake"
+  "CMakeFiles/String_Chain.dir/DependInfo.cmake"
+  "CMakeFiles/Union_Find.dir/DependInfo.cmake"
+  "CMakeFiles/dijkstra.dir/DependInfo.cmake"
+  "CMakeFiles/perimeter_of_island.dir/DependInfo.cmake"
   "CMakeFiles/water_warmer.dir/DependInfo.cmake"
   )

@@ -29,8 +29,8 @@ src/water_warmer/main_water_warmer.cpp
 
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
-cmake --build build
-./build/water_warmer  # 运行程序
+cmake --build build --target MST
+./build/String_Chain  # 运行程序
 ```
 
 ---

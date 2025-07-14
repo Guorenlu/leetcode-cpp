@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug problem1",
+      "name": "Debug perimeter_of_island",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/problem1",
+      "program": "${workspaceFolder}/build/perimeter_of_island",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
@@ -20,13 +20,13 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "Build problem1"
+      "preLaunchTask": "Build perimeter_of_island"
     },
     {
-      "name": "Debug problem2",
+      "name": "Debug String_Chain",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/problem2",
+      "program": "${workspaceFolder}/build/String_Chain",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
@@ -41,28 +41,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "Build problem2"
-    },
-    {
-      "name": "Debug problem3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/build/problem3",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "/usr/bin/gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ],
-      "preLaunchTask": "Build problem3"
+      "preLaunchTask": "Build String_Chain"
     },
     {
       "name": "water_warmer",
@@ -84,6 +63,27 @@
         }
       ],
       "preLaunchTask": "water_warmer"
+    },
+    {
+      "name": "MST",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/MST",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "MST"
     }
   ]
 }

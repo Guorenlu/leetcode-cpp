@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MST.dir/src/MST/MST.cpp.o CMakeFiles/MST.dir/src/MST/main_MST.cpp.o -o MST 

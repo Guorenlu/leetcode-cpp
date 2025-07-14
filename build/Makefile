@@ -117,30 +117,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named problem1
+# Target rules for targets named MST
 
 # Build rule for target.
-problem1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem1
-.PHONY : problem1
+MST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MST
+.PHONY : MST
 
 # fast build rule for target.
-problem1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/build
-.PHONY : problem1/fast
+MST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/build
+.PHONY : MST/fast
 
 #=============================================================================
-# Target rules for targets named problem2
+# Target rules for targets named String_Chain
 
 # Build rule for target.
-problem2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem2
-.PHONY : problem2
+String_Chain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 String_Chain
+.PHONY : String_Chain
 
 # fast build rule for target.
-problem2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/build
-.PHONY : problem2/fast
+String_Chain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/build
+.PHONY : String_Chain/fast
+
+#=============================================================================
+# Target rules for targets named Union_Find
+
+# Build rule for target.
+Union_Find: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Union_Find
+.PHONY : Union_Find
+
+# fast build rule for target.
+Union_Find/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/build
+.PHONY : Union_Find/fast
+
+#=============================================================================
+# Target rules for targets named dijkstra
+
+# Build rule for target.
+dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dijkstra
+.PHONY : dijkstra
+
+# fast build rule for target.
+dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/build
+.PHONY : dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named perimeter_of_island
+
+# Build rule for target.
+perimeter_of_island: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 perimeter_of_island
+.PHONY : perimeter_of_island
+
+# fast build rule for target.
+perimeter_of_island/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/build
+.PHONY : perimeter_of_island/fast
 
 #=============================================================================
 # Target rules for targets named water_warmer
@@ -155,101 +194,245 @@ water_warmer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_warmer.dir/build.make CMakeFiles/water_warmer.dir/build
 .PHONY : water_warmer/fast
 
-src/problem1/main_problem1.o: src/problem1/main_problem1.cpp.o
-.PHONY : src/problem1/main_problem1.o
+src/MST/MST.o: src/MST/MST.cpp.o
+.PHONY : src/MST/MST.o
 
 # target to build an object file
-src/problem1/main_problem1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/main_problem1.cpp.o
-.PHONY : src/problem1/main_problem1.cpp.o
+src/MST/MST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/MST.cpp.o
+.PHONY : src/MST/MST.cpp.o
 
-src/problem1/main_problem1.i: src/problem1/main_problem1.cpp.i
-.PHONY : src/problem1/main_problem1.i
+src/MST/MST.i: src/MST/MST.cpp.i
+.PHONY : src/MST/MST.i
 
 # target to preprocess a source file
-src/problem1/main_problem1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/main_problem1.cpp.i
-.PHONY : src/problem1/main_problem1.cpp.i
+src/MST/MST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/MST.cpp.i
+.PHONY : src/MST/MST.cpp.i
 
-src/problem1/main_problem1.s: src/problem1/main_problem1.cpp.s
-.PHONY : src/problem1/main_problem1.s
+src/MST/MST.s: src/MST/MST.cpp.s
+.PHONY : src/MST/MST.s
 
 # target to generate assembly for a file
-src/problem1/main_problem1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/main_problem1.cpp.s
-.PHONY : src/problem1/main_problem1.cpp.s
+src/MST/MST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/MST.cpp.s
+.PHONY : src/MST/MST.cpp.s
 
-src/problem1/problem1.o: src/problem1/problem1.cpp.o
-.PHONY : src/problem1/problem1.o
+src/MST/main_MST.o: src/MST/main_MST.cpp.o
+.PHONY : src/MST/main_MST.o
 
 # target to build an object file
-src/problem1/problem1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/problem1.cpp.o
-.PHONY : src/problem1/problem1.cpp.o
+src/MST/main_MST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/main_MST.cpp.o
+.PHONY : src/MST/main_MST.cpp.o
 
-src/problem1/problem1.i: src/problem1/problem1.cpp.i
-.PHONY : src/problem1/problem1.i
+src/MST/main_MST.i: src/MST/main_MST.cpp.i
+.PHONY : src/MST/main_MST.i
 
 # target to preprocess a source file
-src/problem1/problem1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/problem1.cpp.i
-.PHONY : src/problem1/problem1.cpp.i
+src/MST/main_MST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/main_MST.cpp.i
+.PHONY : src/MST/main_MST.cpp.i
 
-src/problem1/problem1.s: src/problem1/problem1.cpp.s
-.PHONY : src/problem1/problem1.s
+src/MST/main_MST.s: src/MST/main_MST.cpp.s
+.PHONY : src/MST/main_MST.s
 
 # target to generate assembly for a file
-src/problem1/problem1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/src/problem1/problem1.cpp.s
-.PHONY : src/problem1/problem1.cpp.s
+src/MST/main_MST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/src/MST/main_MST.cpp.s
+.PHONY : src/MST/main_MST.cpp.s
 
-src/problem2/main_problem2.o: src/problem2/main_problem2.cpp.o
-.PHONY : src/problem2/main_problem2.o
+src/String_Chain/String_Chain.o: src/String_Chain/String_Chain.cpp.o
+.PHONY : src/String_Chain/String_Chain.o
 
 # target to build an object file
-src/problem2/main_problem2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/main_problem2.cpp.o
-.PHONY : src/problem2/main_problem2.cpp.o
+src/String_Chain/String_Chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/String_Chain.cpp.o
+.PHONY : src/String_Chain/String_Chain.cpp.o
 
-src/problem2/main_problem2.i: src/problem2/main_problem2.cpp.i
-.PHONY : src/problem2/main_problem2.i
+src/String_Chain/String_Chain.i: src/String_Chain/String_Chain.cpp.i
+.PHONY : src/String_Chain/String_Chain.i
 
 # target to preprocess a source file
-src/problem2/main_problem2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/main_problem2.cpp.i
-.PHONY : src/problem2/main_problem2.cpp.i
+src/String_Chain/String_Chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/String_Chain.cpp.i
+.PHONY : src/String_Chain/String_Chain.cpp.i
 
-src/problem2/main_problem2.s: src/problem2/main_problem2.cpp.s
-.PHONY : src/problem2/main_problem2.s
+src/String_Chain/String_Chain.s: src/String_Chain/String_Chain.cpp.s
+.PHONY : src/String_Chain/String_Chain.s
 
 # target to generate assembly for a file
-src/problem2/main_problem2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/main_problem2.cpp.s
-.PHONY : src/problem2/main_problem2.cpp.s
+src/String_Chain/String_Chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/String_Chain.cpp.s
+.PHONY : src/String_Chain/String_Chain.cpp.s
 
-src/problem2/problem2.o: src/problem2/problem2.cpp.o
-.PHONY : src/problem2/problem2.o
+src/String_Chain/main_String_Chain.o: src/String_Chain/main_String_Chain.cpp.o
+.PHONY : src/String_Chain/main_String_Chain.o
 
 # target to build an object file
-src/problem2/problem2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/problem2.cpp.o
-.PHONY : src/problem2/problem2.cpp.o
+src/String_Chain/main_String_Chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/main_String_Chain.cpp.o
+.PHONY : src/String_Chain/main_String_Chain.cpp.o
 
-src/problem2/problem2.i: src/problem2/problem2.cpp.i
-.PHONY : src/problem2/problem2.i
+src/String_Chain/main_String_Chain.i: src/String_Chain/main_String_Chain.cpp.i
+.PHONY : src/String_Chain/main_String_Chain.i
 
 # target to preprocess a source file
-src/problem2/problem2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/problem2.cpp.i
-.PHONY : src/problem2/problem2.cpp.i
+src/String_Chain/main_String_Chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/main_String_Chain.cpp.i
+.PHONY : src/String_Chain/main_String_Chain.cpp.i
 
-src/problem2/problem2.s: src/problem2/problem2.cpp.s
-.PHONY : src/problem2/problem2.s
+src/String_Chain/main_String_Chain.s: src/String_Chain/main_String_Chain.cpp.s
+.PHONY : src/String_Chain/main_String_Chain.s
 
 # target to generate assembly for a file
-src/problem2/problem2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/src/problem2/problem2.cpp.s
-.PHONY : src/problem2/problem2.cpp.s
+src/String_Chain/main_String_Chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/src/String_Chain/main_String_Chain.cpp.s
+.PHONY : src/String_Chain/main_String_Chain.cpp.s
+
+src/Union_Find/Union_Find.o: src/Union_Find/Union_Find.cpp.o
+.PHONY : src/Union_Find/Union_Find.o
+
+# target to build an object file
+src/Union_Find/Union_Find.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/Union_Find.cpp.o
+.PHONY : src/Union_Find/Union_Find.cpp.o
+
+src/Union_Find/Union_Find.i: src/Union_Find/Union_Find.cpp.i
+.PHONY : src/Union_Find/Union_Find.i
+
+# target to preprocess a source file
+src/Union_Find/Union_Find.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/Union_Find.cpp.i
+.PHONY : src/Union_Find/Union_Find.cpp.i
+
+src/Union_Find/Union_Find.s: src/Union_Find/Union_Find.cpp.s
+.PHONY : src/Union_Find/Union_Find.s
+
+# target to generate assembly for a file
+src/Union_Find/Union_Find.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/Union_Find.cpp.s
+.PHONY : src/Union_Find/Union_Find.cpp.s
+
+src/Union_Find/main_Union_Find.o: src/Union_Find/main_Union_Find.cpp.o
+.PHONY : src/Union_Find/main_Union_Find.o
+
+# target to build an object file
+src/Union_Find/main_Union_Find.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/main_Union_Find.cpp.o
+.PHONY : src/Union_Find/main_Union_Find.cpp.o
+
+src/Union_Find/main_Union_Find.i: src/Union_Find/main_Union_Find.cpp.i
+.PHONY : src/Union_Find/main_Union_Find.i
+
+# target to preprocess a source file
+src/Union_Find/main_Union_Find.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/main_Union_Find.cpp.i
+.PHONY : src/Union_Find/main_Union_Find.cpp.i
+
+src/Union_Find/main_Union_Find.s: src/Union_Find/main_Union_Find.cpp.s
+.PHONY : src/Union_Find/main_Union_Find.s
+
+# target to generate assembly for a file
+src/Union_Find/main_Union_Find.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/src/Union_Find/main_Union_Find.cpp.s
+.PHONY : src/Union_Find/main_Union_Find.cpp.s
+
+src/dijkstra/dijkstra.o: src/dijkstra/dijkstra.cpp.o
+.PHONY : src/dijkstra/dijkstra.o
+
+# target to build an object file
+src/dijkstra/dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/dijkstra.cpp.o
+.PHONY : src/dijkstra/dijkstra.cpp.o
+
+src/dijkstra/dijkstra.i: src/dijkstra/dijkstra.cpp.i
+.PHONY : src/dijkstra/dijkstra.i
+
+# target to preprocess a source file
+src/dijkstra/dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/dijkstra.cpp.i
+.PHONY : src/dijkstra/dijkstra.cpp.i
+
+src/dijkstra/dijkstra.s: src/dijkstra/dijkstra.cpp.s
+.PHONY : src/dijkstra/dijkstra.s
+
+# target to generate assembly for a file
+src/dijkstra/dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/dijkstra.cpp.s
+.PHONY : src/dijkstra/dijkstra.cpp.s
+
+src/dijkstra/main_dijkstra.o: src/dijkstra/main_dijkstra.cpp.o
+.PHONY : src/dijkstra/main_dijkstra.o
+
+# target to build an object file
+src/dijkstra/main_dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/main_dijkstra.cpp.o
+.PHONY : src/dijkstra/main_dijkstra.cpp.o
+
+src/dijkstra/main_dijkstra.i: src/dijkstra/main_dijkstra.cpp.i
+.PHONY : src/dijkstra/main_dijkstra.i
+
+# target to preprocess a source file
+src/dijkstra/main_dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/main_dijkstra.cpp.i
+.PHONY : src/dijkstra/main_dijkstra.cpp.i
+
+src/dijkstra/main_dijkstra.s: src/dijkstra/main_dijkstra.cpp.s
+.PHONY : src/dijkstra/main_dijkstra.s
+
+# target to generate assembly for a file
+src/dijkstra/main_dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/src/dijkstra/main_dijkstra.cpp.s
+.PHONY : src/dijkstra/main_dijkstra.cpp.s
+
+src/perimeter_of_island/main_perimeter_of_island.o: src/perimeter_of_island/main_perimeter_of_island.cpp.o
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.o
+
+# target to build an object file
+src/perimeter_of_island/main_perimeter_of_island.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/main_perimeter_of_island.cpp.o
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.cpp.o
+
+src/perimeter_of_island/main_perimeter_of_island.i: src/perimeter_of_island/main_perimeter_of_island.cpp.i
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.i
+
+# target to preprocess a source file
+src/perimeter_of_island/main_perimeter_of_island.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/main_perimeter_of_island.cpp.i
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.cpp.i
+
+src/perimeter_of_island/main_perimeter_of_island.s: src/perimeter_of_island/main_perimeter_of_island.cpp.s
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.s
+
+# target to generate assembly for a file
+src/perimeter_of_island/main_perimeter_of_island.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/main_perimeter_of_island.cpp.s
+.PHONY : src/perimeter_of_island/main_perimeter_of_island.cpp.s
+
+src/perimeter_of_island/perimeter_of_island.o: src/perimeter_of_island/perimeter_of_island.cpp.o
+.PHONY : src/perimeter_of_island/perimeter_of_island.o
+
+# target to build an object file
+src/perimeter_of_island/perimeter_of_island.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/perimeter_of_island.cpp.o
+.PHONY : src/perimeter_of_island/perimeter_of_island.cpp.o
+
+src/perimeter_of_island/perimeter_of_island.i: src/perimeter_of_island/perimeter_of_island.cpp.i
+.PHONY : src/perimeter_of_island/perimeter_of_island.i
+
+# target to preprocess a source file
+src/perimeter_of_island/perimeter_of_island.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/perimeter_of_island.cpp.i
+.PHONY : src/perimeter_of_island/perimeter_of_island.cpp.i
+
+src/perimeter_of_island/perimeter_of_island.s: src/perimeter_of_island/perimeter_of_island.cpp.s
+.PHONY : src/perimeter_of_island/perimeter_of_island.s
+
+# target to generate assembly for a file
+src/perimeter_of_island/perimeter_of_island.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/src/perimeter_of_island/perimeter_of_island.cpp.s
+.PHONY : src/perimeter_of_island/perimeter_of_island.cpp.s
 
 src/water_warmer/main_water_warmer.o: src/water_warmer/main_water_warmer.cpp.o
 .PHONY : src/water_warmer/main_water_warmer.o
@@ -307,21 +490,42 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... problem1"
-	@echo "... problem2"
+	@echo "... MST"
+	@echo "... String_Chain"
+	@echo "... Union_Find"
+	@echo "... dijkstra"
+	@echo "... perimeter_of_island"
 	@echo "... water_warmer"
-	@echo "... src/problem1/main_problem1.o"
-	@echo "... src/problem1/main_problem1.i"
-	@echo "... src/problem1/main_problem1.s"
-	@echo "... src/problem1/problem1.o"
-	@echo "... src/problem1/problem1.i"
-	@echo "... src/problem1/problem1.s"
-	@echo "... src/problem2/main_problem2.o"
-	@echo "... src/problem2/main_problem2.i"
-	@echo "... src/problem2/main_problem2.s"
-	@echo "... src/problem2/problem2.o"
-	@echo "... src/problem2/problem2.i"
-	@echo "... src/problem2/problem2.s"
+	@echo "... src/MST/MST.o"
+	@echo "... src/MST/MST.i"
+	@echo "... src/MST/MST.s"
+	@echo "... src/MST/main_MST.o"
+	@echo "... src/MST/main_MST.i"
+	@echo "... src/MST/main_MST.s"
+	@echo "... src/String_Chain/String_Chain.o"
+	@echo "... src/String_Chain/String_Chain.i"
+	@echo "... src/String_Chain/String_Chain.s"
+	@echo "... src/String_Chain/main_String_Chain.o"
+	@echo "... src/String_Chain/main_String_Chain.i"
+	@echo "... src/String_Chain/main_String_Chain.s"
+	@echo "... src/Union_Find/Union_Find.o"
+	@echo "... src/Union_Find/Union_Find.i"
+	@echo "... src/Union_Find/Union_Find.s"
+	@echo "... src/Union_Find/main_Union_Find.o"
+	@echo "... src/Union_Find/main_Union_Find.i"
+	@echo "... src/Union_Find/main_Union_Find.s"
+	@echo "... src/dijkstra/dijkstra.o"
+	@echo "... src/dijkstra/dijkstra.i"
+	@echo "... src/dijkstra/dijkstra.s"
+	@echo "... src/dijkstra/main_dijkstra.o"
+	@echo "... src/dijkstra/main_dijkstra.i"
+	@echo "... src/dijkstra/main_dijkstra.s"
+	@echo "... src/perimeter_of_island/main_perimeter_of_island.o"
+	@echo "... src/perimeter_of_island/main_perimeter_of_island.i"
+	@echo "... src/perimeter_of_island/main_perimeter_of_island.s"
+	@echo "... src/perimeter_of_island/perimeter_of_island.o"
+	@echo "... src/perimeter_of_island/perimeter_of_island.i"
+	@echo "... src/perimeter_of_island/perimeter_of_island.s"
 	@echo "... src/water_warmer/main_water_warmer.o"
 	@echo "... src/water_warmer/main_water_warmer.i"
 	@echo "... src/water_warmer/main_water_warmer.s"

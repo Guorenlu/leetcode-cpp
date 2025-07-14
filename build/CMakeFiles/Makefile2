@@ -63,8 +63,11 @@ CMAKE_BINARY_DIR = /root/leetcode_cpp/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/problem1.dir/all
-all: CMakeFiles/problem2.dir/all
+all: CMakeFiles/MST.dir/all
+all: CMakeFiles/String_Chain.dir/all
+all: CMakeFiles/Union_Find.dir/all
+all: CMakeFiles/dijkstra.dir/all
+all: CMakeFiles/perimeter_of_island.dir/all
 all: CMakeFiles/water_warmer.dir/all
 .PHONY : all
 
@@ -73,62 +76,143 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/problem1.dir/clean
-clean: CMakeFiles/problem2.dir/clean
+clean: CMakeFiles/MST.dir/clean
+clean: CMakeFiles/String_Chain.dir/clean
+clean: CMakeFiles/Union_Find.dir/clean
+clean: CMakeFiles/dijkstra.dir/clean
+clean: CMakeFiles/perimeter_of_island.dir/clean
 clean: CMakeFiles/water_warmer.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/problem1.dir
+# Target rules for target CMakeFiles/MST.dir
 
 # All Build rule for target.
-CMakeFiles/problem1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=1,2,3 "Built target problem1"
-.PHONY : CMakeFiles/problem1.dir/all
+CMakeFiles/MST.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=1,2,3 "Built target MST"
+.PHONY : CMakeFiles/MST.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/problem1.dir/rule: cmake_check_build_system
+CMakeFiles/MST.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MST.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/problem1.dir/rule
+.PHONY : CMakeFiles/MST.dir/rule
 
 # Convenience name for target.
-problem1: CMakeFiles/problem1.dir/rule
-.PHONY : problem1
+MST: CMakeFiles/MST.dir/rule
+.PHONY : MST
 
 # clean rule for target.
-CMakeFiles/problem1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1.dir/build.make CMakeFiles/problem1.dir/clean
-.PHONY : CMakeFiles/problem1.dir/clean
+CMakeFiles/MST.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MST.dir/build.make CMakeFiles/MST.dir/clean
+.PHONY : CMakeFiles/MST.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/problem2.dir
+# Target rules for target CMakeFiles/String_Chain.dir
 
 # All Build rule for target.
-CMakeFiles/problem2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=4,5,6 "Built target problem2"
-.PHONY : CMakeFiles/problem2.dir/all
+CMakeFiles/String_Chain.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=4,5,6 "Built target String_Chain"
+.PHONY : CMakeFiles/String_Chain.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/problem2.dir/rule: cmake_check_build_system
+CMakeFiles/String_Chain.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/String_Chain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/problem2.dir/rule
+.PHONY : CMakeFiles/String_Chain.dir/rule
 
 # Convenience name for target.
-problem2: CMakeFiles/problem2.dir/rule
-.PHONY : problem2
+String_Chain: CMakeFiles/String_Chain.dir/rule
+.PHONY : String_Chain
 
 # clean rule for target.
-CMakeFiles/problem2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2.dir/build.make CMakeFiles/problem2.dir/clean
-.PHONY : CMakeFiles/problem2.dir/clean
+CMakeFiles/String_Chain.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/String_Chain.dir/build.make CMakeFiles/String_Chain.dir/clean
+.PHONY : CMakeFiles/String_Chain.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Union_Find.dir
+
+# All Build rule for target.
+CMakeFiles/Union_Find.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=7,8,9 "Built target Union_Find"
+.PHONY : CMakeFiles/Union_Find.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Union_Find.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Union_Find.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/Union_Find.dir/rule
+
+# Convenience name for target.
+Union_Find: CMakeFiles/Union_Find.dir/rule
+.PHONY : Union_Find
+
+# clean rule for target.
+CMakeFiles/Union_Find.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Union_Find.dir/build.make CMakeFiles/Union_Find.dir/clean
+.PHONY : CMakeFiles/Union_Find.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dijkstra.dir
+
+# All Build rule for target.
+CMakeFiles/dijkstra.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=10,11,12 "Built target dijkstra"
+.PHONY : CMakeFiles/dijkstra.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dijkstra.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dijkstra.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/dijkstra.dir/rule
+
+# Convenience name for target.
+dijkstra: CMakeFiles/dijkstra.dir/rule
+.PHONY : dijkstra
+
+# clean rule for target.
+CMakeFiles/dijkstra.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/clean
+.PHONY : CMakeFiles/dijkstra.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/perimeter_of_island.dir
+
+# All Build rule for target.
+CMakeFiles/perimeter_of_island.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=13,14,15 "Built target perimeter_of_island"
+.PHONY : CMakeFiles/perimeter_of_island.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/perimeter_of_island.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/perimeter_of_island.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/leetcode_cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/perimeter_of_island.dir/rule
+
+# Convenience name for target.
+perimeter_of_island: CMakeFiles/perimeter_of_island.dir/rule
+.PHONY : perimeter_of_island
+
+# clean rule for target.
+CMakeFiles/perimeter_of_island.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/perimeter_of_island.dir/build.make CMakeFiles/perimeter_of_island.dir/clean
+.PHONY : CMakeFiles/perimeter_of_island.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/water_warmer.dir
@@ -137,7 +221,7 @@ CMakeFiles/problem2.dir/clean:
 CMakeFiles/water_warmer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_warmer.dir/build.make CMakeFiles/water_warmer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/water_warmer.dir/build.make CMakeFiles/water_warmer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=7,8,9 "Built target water_warmer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/leetcode_cpp/build/CMakeFiles --progress-num=16,17,18 "Built target water_warmer"
 .PHONY : CMakeFiles/water_warmer.dir/all
 
 # Build rule for subdir invocation for target.
